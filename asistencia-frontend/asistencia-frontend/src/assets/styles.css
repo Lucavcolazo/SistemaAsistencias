@@ -1,0 +1,42 @@
+/* 🎨 Ajustes Generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* 📱 Diseño Responsive */
+  .container {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 300px;
+  }
+  
+  /* 📱 Inputs y Botones */
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #1e90ff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0f78d3;
+  }
